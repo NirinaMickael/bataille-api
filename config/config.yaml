@@ -1,0 +1,17 @@
+# config/mongo.yml
+
+development:
+  uri: 'mongodb://localhost:27017/chateo'
+  options:
+    useNewUrlParser: true
+    useUnifiedTopology: true
+    useCreateIndex: true
+    useFindAndModify: false
+
+production:
+  uri: 'mongodb://mongodb.example.com:27017/mydb'
+  options:
+    useNewUrlParser: true
+    useUnifiedTopology: true
+    useCreateIndex: true
+    useFindAndModify: false
